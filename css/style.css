@@ -298,3 +298,170 @@ body {
   max-width: 486px;
   padding: 39px 0;
 }
+
+.hero {
+  background-image: url("../image/content/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.hero__body {
+  text-align: center;
+  max-width: 542px;
+  padding: 230px 0 379px;
+}
+
+.hero__title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  margin-bottom: 22px;
+}
+
+.hero__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #567592;
+  margin-bottom: 45px;
+}
+
+.hero__btn {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #ff9900;
+  border-radius: 4px;
+  padding: 15px 31px 14px 30px;
+}
+
+.hero__avator {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.hero__avator::before {
+  content: "";
+  width: 17px;
+  height: 17px;
+  background: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 80px;
+  right: 36px;
+  z-index: 8;
+}
+
+.hero__avator::after {
+  content: "";
+  width: 9px;
+  height: 9px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 70px;
+  right: 22px;
+  z-index: 8;
+}
+
+.hero__avator-img {
+  width: 98px;
+  height: 98px;
+  margin-right: -55px;
+  margin-top: -10px;
+}
+
+.hero__avator-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2f281e;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+          box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
+  padding: 14px 21px;
+  border-radius: 26.5px;
+  z-index: 5;
+}
+
+.hero__avator-text-01 {
+  margin-left: 59px;
+}
+
+.hero__avator-01 {
+  top: 180px;
+  left: 15px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.hero__avator-01::before {
+  content: "";
+  width: 17px;
+  height: 17px;
+  background: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 80px;
+  left: 90px;
+  z-index: 8;
+}
+
+.hero__avator-01::after {
+  content: "";
+  width: 9px;
+  height: 9px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 70px;
+  left: 76px;
+  z-index: 8;
+}
+
+.hero__avator-02 {
+  top: 116px;
+  right: 146px;
+}
+
+.hero__avator-03 {
+  bottom: 233px;
+  left: 20px;
+}
+
+.hero__avator-04 {
+  bottom: 135px;
+  left: 400px;
+}
+
+.hero__avator-05 {
+  bottom: 256px;
+  right: 68px;
+}
