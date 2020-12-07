@@ -6,7 +6,7 @@ body {
 
 // font-family: 'Poppins', sans-serif;
 .container {
-    width: 1154px;
+    width: 1124px;
     padding: 0 15px;
     margin: 0 auto;
     @media (max-width: 1280px) {
@@ -83,7 +83,7 @@ body {
     background-image: url("../image/content/top-img.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right;
+    background-position: 97%;
     &__inner {
     }
     &__body {
@@ -199,13 +199,18 @@ body {
     background-image: url("../image/content/designer-img.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right;
+    background-position: 95%  ;
     &__inner {
         max-width: 496px;
         padding: 26px 0 16px;
     }
+
+   
+}
+.content {
+    //повторяющийся блок контента
     &__top {
-        margin-bottom:  27px;
+        margin-bottom: 27px;
     }
     &__top-text {
         font-weight: 500;
@@ -232,8 +237,48 @@ body {
         line-height: 26px;
         color: #544837;
         margin-bottom: 25px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+//=====SECTION====MANAGERS====
+.managers {
+    background-image: url("../image/content/managers-img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 15px;
+
+    &__inner {
+        max-width: 486px;
+        margin-left: auto;
+        padding: 47px 0;
+    }
+    &__text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #544837;
+        margin-bottom: 30px;
+        padding-left: 65px;
+        background-image: url("../image/content/managers-check.svg");
+        background-repeat: no-repeat;
+        background-size: initial;
+        background-position: 0 50%;
         &:last-child{
             margin-bottom: 0;
         }
     }
 }
+//=====SECTION====MARKETERS===
+.marketers {
+    background-image: url("../image/content/marketers-img.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 95%  ;
+    &__inner {
+      max-width: 486px; 
+      padding: 39px 0; 
+    }
+}
+
