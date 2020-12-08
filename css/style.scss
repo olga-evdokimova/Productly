@@ -43,8 +43,7 @@ body {
         padding: 22px 0 24px 0;
         margin-bottom: 50px;
     }
-    &__logo {
-    }
+
     &__items {
     }
     &__item {
@@ -64,6 +63,7 @@ body {
         }
     }
 }
+
 //====MENU================
 .menu {
     margin-left: auto;
@@ -442,8 +442,8 @@ body {
     margin: 0 -20px;
     &__item {
         padding: 0 20px;
-        }
-    &__item-img{
+    }
+    &__item-img {
         width: 348px;
         height: 185px;
         object-fit: cover;
@@ -465,13 +465,13 @@ body {
         font-size: 24px;
         line-height: 34px;
         width: 294px;
-        transition: all .3s;
-        &:hover{
-            color: #FF9900;
+        transition: all 0.3s;
+        &:hover {
+            color: #ff9900;
         }
     }
 }
-//классы слик слайдера для дотс
+//классы слайдера для дотсов
 .slick-dots {
     text-align: center;
     button {
@@ -492,7 +492,7 @@ body {
         background: #ff9900;
     }
 }
- 
+
 //====FOOTER==============
 .footer {
     &__inner {
@@ -501,8 +501,7 @@ body {
         border-top: 1px solid rgba(188, 208, 229, 0.496913);
         padding: 100px 0;
     }
-    &__logo {
-    }
+
     &__img {
     }
     &__menu {
@@ -510,13 +509,15 @@ body {
         font-size: 16px;
         line-height: 35px;
         color: #544837;
-        padding-top: 65px;
     }
-    &__menu-list {
-        display: flex;
+    &__menu-title {
+        font-size: 20px;
+        line-height: 30px;
+        color: #2f281e;
+        margin-bottom: 35px;
     }
+
     &__menu-item {
-        margin: 0;
     }
     &__menu-items {
         display: flex;
@@ -528,18 +529,24 @@ body {
     &__menu-link {
     }
     &__form {
+        width: 330px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
+    &__form-text {
+        font-size: 20px;
+        line-height: 30px;
+        color: #2f281e;
+        margin-bottom: 34px;
+    }
     &__input {
+        width: 100%;
         background: #ffffff;
         border: 1px solid #bcd0e5;
         border-radius: 4px;
         padding: 10px 15px;
-        width: 329px;
         margin-bottom: 21px;
-        margin-top: 91px;
         &::placeholder {
             font-weight: normal;
             font-size: 16px;
