@@ -1,11 +1,11 @@
 
 $('.slider').slick({
-    arrows: false,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    dots: true,
+    arrows: false,//убираем стрелки
+    slidesToShow: 3,//колличество слайдлов в окне
+    slidesToScroll: 3,//пролистывается по 3 слайда
+    autoplay: true,//автоматическое перелистывание
+    autoplaySpeed: 2000,//скорость перелистывания
+    dots: true,//добавляем дотс
   });
 
 
