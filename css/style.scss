@@ -2,6 +2,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     color: #2f281e; //коричневый темный
+    background: #f2f2f2;
 }
 
 // font-family: 'Poppins', sans-serif;
@@ -283,7 +284,7 @@ body {
 .hero {
     background-image: url("../image/content/hero-bg.png");
     background-repeat: no-repeat;
-
+    background-position: top center;
     background-size: cover;
     &__inner {
         display: flex;
@@ -435,7 +436,6 @@ body {
     &__item {
         width: 348px;
         margin-bottom: 45px;
-       
     }
     &__item-text {
         font-size: 16px;
@@ -456,14 +456,14 @@ body {
 .slick-dots {
     text-align: center;
 }
-button {
+li > button {
+    //иначе все кнопки на странице наследуют эти свойства
     font-size: 0; //убрать цифры
     //обращаемся к кнопкам слайдера
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    background: #EFEFEF;
-  
+    background: #d4d4d4;
 }
 li {
     //располагаем кнопки по горизонтали и добавляем отступы
@@ -472,6 +472,70 @@ li {
 }
 .slick-active button {
     // обращаемся к активной кнопке
-    background: #FF9900;
-    
+    background: #ff9900;
+}
+//====FOOTER==============
+.footer {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid rgba(188, 208, 229, 0.496913);
+        padding: 100px 0;
+    }
+    &__logo {
+    }
+    &__img {
+    }
+    &__menu {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 35px;
+        color: #544837;
+        padding-top: 65px;
+    }
+    &__menu-list {
+        display: flex;
+    }
+    &__menu-item {
+        margin: 0;
+    }
+    &__menu-items {
+        display: flex;
+        flex-direction: column;
+        & + .footer__menu-items{
+            margin-left: 177px;
+        }
+    }
+    &__menu-link {
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &__input {
+        background: #ffffff;
+        border: 1px solid #bcd0e5;
+        border-radius: 4px;
+        padding: 10px 15px;
+        width: 329px;
+        margin-bottom: 21px;
+        margin-top: 91px;
+        &::placeholder {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 28px;
+            color: #bcd0e5;
+        }
+    }
+    &__btn {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #ffffff;
+        padding: 8px 15px 7px;
+        background: #ff9900;
+        border-radius: 4px;
+    }
 }
