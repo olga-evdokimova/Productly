@@ -728,19 +728,38 @@ body {
   padding: 230px 0 379px;
 }
 
+@media (max-width: 600px) {
+  .hero__body {
+    padding: 50px 0;
+  }
+}
+
 .hero__title {
   font-weight: bold;
   font-size: 36px;
-  line-height: 54px;
+  line-height: 1.5;
   margin-bottom: 22px;
+}
+
+@media (max-width: 600px) {
+  .hero__title {
+    font-size: 28px;
+  }
 }
 
 .hero__text {
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.63;
   color: #567592;
   margin-bottom: 45px;
+}
+
+@media (max-width: 600px) {
+  .hero__text {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
 }
 
 .hero__link {
@@ -766,6 +785,12 @@ body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+}
+
+@media (max-width: 600px) {
+  .hero__avator {
+    display: none;
+  }
 }
 
 .hero__avator::before {
@@ -830,6 +855,19 @@ body {
           align-items: flex-start;
 }
 
+@media (max-width: 992px) {
+  .hero__avator-01 {
+    top: 96px;
+    left: 96px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero__avator-01 {
+    left: 15px;
+  }
+}
+
 .hero__avator-01::before {
   content: "";
   width: 17px;
@@ -859,9 +897,35 @@ body {
   right: 146px;
 }
 
+@media (max-width: 992px) {
+  .hero__avator-02 {
+    top: 30px;
+    right: 158px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero__avator-02 {
+    right: 70px;
+  }
+}
+
 .hero__avator-03 {
   bottom: 233px;
   left: 20px;
+}
+
+@media (max-width: 992px) {
+  .hero__avator-03 {
+    bottom: 222px;
+    left: 91px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero__avator-03 {
+    left: 15px;
+  }
 }
 
 .hero__avator-04 {
@@ -869,9 +933,29 @@ body {
   left: 400px;
 }
 
+@media (max-width: 992px) {
+  .hero__avator-04 {
+    bottom: 69px;
+    left: 145px;
+  }
+}
+
 .hero__avator-05 {
   bottom: 256px;
-  right: 68px;
+  right: 70px;
+}
+
+@media (max-width: 992px) {
+  .hero__avator-05 {
+    bottom: 222px;
+    right: 136px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero__avator-05 {
+    right: 70px;
+  }
 }
 
 .strategy__title {

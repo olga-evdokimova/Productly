@@ -510,19 +510,29 @@ body {
         text-align: center;
         max-width: 542px;
         padding: 230px 0 379px;
+        @media (max-width: 600px){
+            padding: 50px 0;
+        }
     }
     &__title {
         font-weight: bold;
         font-size: 36px;
-        line-height: 54px;
+        line-height: 1.5;
         margin-bottom: 22px;
+        @media (max-width: 600px){
+            font-size: 28px;
+        }
     }
     &__text {
         font-weight: 500;
         font-size: 16px;
-        line-height: 26px;
+        line-height: 1.63;
         color: #567592;
         margin-bottom: 45px;
+        @media (max-width: 600px){
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
     }
     &__link {
         display: inline-block;
@@ -539,6 +549,9 @@ body {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+        @media (max-width: 600px){
+display: none;
+        }
         &::before {
             content: "";
             width: 17px;
@@ -592,6 +605,13 @@ body {
         top: 180px;
         left: 15px;
         align-items: flex-start;
+        @media (max-width: 992px) {
+            top: 96px;
+            left: 96px;
+        }
+        @media (max-width: 767px) {
+            left: 15px;
+        }
         &::before {
             content: "";
             width: 17px;
@@ -618,18 +638,46 @@ body {
     &__avator-02 {
         top: 116px;
         right: 146px;
+        @media (max-width: 992px) {
+            top: 30px;
+            right: 158px;
+        }
+        @media (max-width: 767px) {
+            right: 70px;
+        }
     }
     &__avator-03 {
         bottom: 233px;
         left: 20px;
+        @media (max-width: 992px) {
+            bottom: 222px;
+            left: 91px;
+        }
+        @media (max-width: 767px) {
+          left: 15px;
+        }
     }
     &__avator-04 {
         bottom: 135px;
         left: 400px;
+        @media (max-width: 992px) {
+            bottom: 69px;
+            left: 145px;
+        }
+        @media (max-width: 767px) {
+          
+        }
     }
     &__avator-05 {
         bottom: 256px;
-        right: 68px;
+        right: 70px;
+        @media (max-width: 992px) {
+            bottom: 222px;
+            right: 136px;
+        }
+        @media (max-width: 767px) {
+            right: 70px;
+        }
     }
 }
 //====SECTION===STRATEGY====
