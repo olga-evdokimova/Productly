@@ -37,17 +37,17 @@ body {
 
 @media (max-width: 600px) {
   .container {
-    max-width: 480px;
+    max-width: 460px;
   }
 }
 
 @media (max-width: 480px) {
   .container {
-    max-width: 400px;
+    max-width: 380px;
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 380px) {
   .container {
     max-width: 300px;
   }
