@@ -467,9 +467,16 @@ body {
   width: 486px;
 }
 
+@media (max-width: 1280px) {
+  .designer__content {
+    padding-right: 15px;
+  }
+}
+
 @media (max-width: 992px) {
   .designer__content {
     width: 100%;
+    padding-right: 0;
   }
 }
 
@@ -578,9 +585,16 @@ body {
   width: 486px;
 }
 
+@media (max-width: 1280px) {
+  .managers__content {
+    padding-left: 15px;
+  }
+}
+
 @media (max-width: 992px) {
   .managers__content {
     width: 100%;
+    padding-left: 0;
   }
 }
 
@@ -656,9 +670,16 @@ body {
   width: 486px;
 }
 
+@media (max-width: 1280px) {
+  .marketers__content {
+    padding-right: 15px;
+  }
+}
+
 @media (max-width: 992px) {
   .marketers__content {
     width: 100%;
+    padding-right: 0;
   }
 }
 
