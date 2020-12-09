@@ -586,7 +586,7 @@ body {
 
 @media (max-width: 767px) {
   .managers__content {
-    padding: 20px 0;
+    padding: 16px 0;
   }
 }
 
@@ -644,9 +644,35 @@ body {
           justify-content: space-between;
 }
 
+@media (max-width: 992px) {
+  .marketers__inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .marketers__content {
   padding-top: 39px;
   width: 486px;
+}
+
+@media (max-width: 992px) {
+  .marketers__content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .marketers__content {
+    padding: 16px 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .marketers__img {
+    width: 60%;
+    margin: 0 auto;
+  }
 }
 
 .marketers__img img {

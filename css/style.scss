@@ -414,7 +414,7 @@ body {
             width: 100%;
         }
         @media (max-width: 767px){
-            padding: 20px 0;
+            padding: 16px 0;
         }  
 
     }
@@ -459,12 +459,25 @@ body {
     &__inner {
         display: flex;
         justify-content: space-between;
+        @media (max-width: 992px) {
+            flex-wrap: wrap;
+        }
     }
     &__content {
         padding-top: 39px;
         width: 486px;
+        @media (max-width: 992px){
+            width: 100%;
+        }
+        @media (max-width: 767px){
+            padding: 16px 0;
+        }
     }
     &__img {
+        @media (max-width: 992px) {
+            width: 60%;
+            margin: 0 auto ;
+        }
         img {
             display: block;
         }
