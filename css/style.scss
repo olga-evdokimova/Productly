@@ -1,7 +1,7 @@
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    color: #2f281e; //коричневый темный
+    color: #2f281e;
     background: #fff;
 }
 .wrapper {
@@ -77,6 +77,11 @@ body {
         }
     }
 }
+.logo {
+    @media (max-width: 992px){
+        width: 100%;
+    }
+}
 //====BURGER==============
 .header__burger {
     display: none;
@@ -141,8 +146,7 @@ body {
             transform: translateX(300%);
             transition: all 0.8s; 
             &.menu__list-active {
-              
-                transform: translateX(0%);
+               transform: translateX(0%);
             }
             a {
                 display: block;
@@ -708,6 +712,8 @@ body {
         }
     }
     &__item-img {
+        width: 348px;
+        height: 185px;
         object-fit: cover;
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
@@ -748,7 +754,7 @@ body {
         }
     }
 }
-//классы слайдера для дотсов
+
 .slick-dots {
     text-align: center;
     button {
@@ -881,10 +887,4 @@ body {
         border-radius: 4px;
     }
 }
-.logo {
-    @media (max-width: 992px){
-        width: 100%;
-    }
 
-    
-}

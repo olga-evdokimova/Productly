@@ -125,6 +125,12 @@ body {
   color: #fff;
 }
 
+@media (max-width: 992px) {
+  .logo {
+    width: 100%;
+  }
+}
+
 .header__burger {
   display: none;
   width: 60px;
@@ -999,6 +1005,8 @@ body {
 }
 
 .slider__item-img {
+  width: 348px;
+  height: 185px;
   -o-object-fit: cover;
      object-fit: cover;
   border-top-left-radius: 8px;
@@ -1263,10 +1271,4 @@ body {
   padding: 8px 15px 7px;
   background: #ff9900;
   border-radius: 4px;
-}
-
-@media (max-width: 992px) {
-  .logo {
-    width: 100%;
-  }
 }
