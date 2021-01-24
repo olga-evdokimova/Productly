@@ -29,6 +29,8 @@ $(function () {
 //находим бургер. при клике выходит меню при вторм клике прячется обратно
 $('.header__burger').on('click', function () {
     //при клике на бургер появляется новый класс- menu__list-active
-    $('.menu__list').toggleClass('menu__list-active')
+    $('.menu__list').toggleClass('menu__list-active');
+    //запрет скрола контента при открытом меню
+		$('body').toggleClass('lock');
 });
 });
